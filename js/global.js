@@ -1,6 +1,6 @@
-window.addEventListner('load', function() {
+window.addEventListener('load', function() {
 	var btn1 = document.getElementById('btn1');
-	btn1.addEventListner('click', function() {
+	btn1.addEventListener('click', function() {
 		alert('Hello World !!!');
 	});
 });
